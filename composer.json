@@ -1,0 +1,12 @@
+{
+  "name": "revelare/phpiggy",
+  "description": "A PHP pure Application for tracking expenses",
+  "type": "project",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/Framework",
+      "App\\": "src/App"
+    }
+  }
+}
