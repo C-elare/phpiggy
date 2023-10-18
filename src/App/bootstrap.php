@@ -8,4 +8,10 @@ use Framework\App;
 
 $app = new App();
 
+$app->get('/', ['App\Controllers\HomeController']);
+
+
+
+dd($app);
+
 return $app;
